@@ -1,0 +1,176 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1535" measuredH="853" mockupW="1456" mockupH="829">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="79" y="32" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Epstein%0Ahttp%3A//epstein.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::TextInput" x="116" y="204" w="-1" h="-1" measuredW="46" measuredH="27" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Email</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="116" y="235" w="-1" h="-1" measuredW="70" measuredH="27" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Password</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="116" y="266" w="-1" h="-1" measuredW="54" measuredH="27" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Login</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="136" y="130" w="-1" h="-1" measuredW="336" measuredH="32" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Let%20Epstein%20manage%20your%20band</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="588" y="24" w="458" h="400" measuredW="450" measuredH="400" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Epstein%0Ahttp%3A//epstein.com/gigs</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::FieldSet" x="309" y="181" w="200" h="167" measuredW="200" measuredH="170" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>New%20registration</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::TextInput" x="330" y="222" w="-1" h="-1" measuredW="46" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Email</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::TextInput" x="330" y="251" w="-1" h="-1" measuredW="70" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Password</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Button" x="330" y="309" w="-1" h="-1" measuredW="73" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Register</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::MenuBar" x="725" y="95" w="-1" h="-1" measuredW="187" measuredH="29" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Gigs%2C%20Setlist%2C%20Log%20Out</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="1085" y="24" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Epstein%0Ahttp%3A//epstein.com/setlist</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::MenuBar" x="1208" y="101" w="-1" h="-1" measuredW="187" measuredH="29" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Gigs%2C%20Setlist%2C%20Log%20Out</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::DateChooser" x="615" y="185" w="-1" h="-1" measuredW="90" measuredH="25" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%20/%20%20/%20%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Label" x="635" y="159" w="-1" h="-1" measuredW="51" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Gig%20date</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::DataGrid" x="604" y="222" w="434" h="114" measuredW="402" measuredH="141" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20Date%2C%20Description%2C%20Address%2C%20Setlist%0A1/1/2013%2C%20Shoreline%20Amphitheter%2C%201000%20Shoreline%20Blvd%2C%20view%0A1/2/2013%2C%20Madison%20Square%20Garden%2C%201%20Madison%20Ave%2C%20view%0A1/3/2013%2C%20Coachella%2C%20Some%20big%20festival%2C%20view%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="747" y="130" w="-1" h="-1" measuredW="123" measuredH="32" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Band%20name</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::TextInput" x="725" y="184" w="-1" h="-1" measuredW="81" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Description</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::TextInput" x="836" y="183" w="-1" h="-1" measuredW="63" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Address</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Button" x="939" y="179" w="-1" h="-1" measuredW="86" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Submit%20gig</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::FieldSet" x="1330" y="189" w="188" h="150" measuredW="200" measuredH="170" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Setlist%20for%20dateX</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::TextInput" x="1100" y="156" w="159" h="-1" measuredW="82" measuredH="27" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Add%20a%20song</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::TextArea" x="1100" y="194" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>song%201%0Asong%202%0Asong%203%0Aetc.</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::StickyNote" x="1208" y="325" w="174" h="120" measuredW="109" measuredH="123" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>All%20songs%20for%20the%20band%20are%20listed%20on%20the%20left%20and%20you%20can%20drag%20and%20reorder%20them%20to%20the%20list%20on%20the%20right</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::List" x="1330" y="210" w="-1" h="-1" measuredW="100" measuredH="126" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>song14%0Asong3%0Asong12%0Asong7%0Aetc.</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::StickyNote" x="252" y="391" w="148" h="143" measuredW="109" measuredH="123" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>After%20login/registration%20go%20to%20page%20the%20display%20table%20of%20gigs</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::FieldSet" x="100" y="179" w="-1" h="-1" measuredW="200" measuredH="170" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Login</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::TextInput" x="330" y="278" w="-1" h="-1" measuredW="61" measuredH="27" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Confirm</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="324" y="453" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Label" x="452" y="591" w="-1" h="-1" measuredW="228" measuredH="21" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Create%20new%20band%3F%20Join%20existing%20band%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::TextInput" x="329" y="191" w="-1" h="-1" measuredW="49" measuredH="27" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Label" x="452" y="564" w="-1" h="-1" measuredW="125" measuredH="21" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Your%20existing%20bands...</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::StickyNote" x="437" y="612" w="224" h="200" measuredW="109" measuredH="123" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>If%20new%20band%7B%0Adisplay%20%3Cform%3E%0A%7D%0Aelse%20%7B%0Adisplay%20%3Cul%3E%20of%20existing%20bands%0A%7D%0A%20%0A%20%0ACreator%20is%20automatically%20the%20admin</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::StickyNote" x="885" y="453" w="230" h="164" measuredW="109" measuredH="123" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Other%20ideas%3A%0ARemove%20password%20from%20session%20data%0AMake%20user%20level%20normal%20if%20they%20join%20a%20band%20-%3E%20remove%20%27add%20shows%27%20button%0AValidation%20on%20add_show%28%29%0ABand%20info%20update%20page%0AAccount%20info%20update%20page%0ADelete%20shows%0AMake%20sure%20band%20name%20isn%27t%20already%20in%20the%20DB</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

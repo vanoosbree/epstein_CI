@@ -1,0 +1,19 @@
+ul { 
+	list-style-type: none;
+}
+
+#songlist li, #setlist li {
+	cursor: pointer;
+}
+
+#songs {
+	border-right: 4px solid #262626;
+}
+
+#songs input[type=submit] {
+	margin-bottom: 12px;
+}
+
+#setlist {
+	margin-left: : 35px;
+}
