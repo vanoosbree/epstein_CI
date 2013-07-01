@@ -47,7 +47,7 @@
 					<td>". date('M jS, Y', strtotime($show->date)) ." at ". date('g:i A', strtotime($show->time)) . "</td>
 					<td>". $show->description ."</td>
 					<td>". $show->address ."</td>
-					<td>Setlist</td>
+					<td><a href='/setlist/index/". $show->id ."'>view</a></td>
 				</tr>";
 		}
 	}

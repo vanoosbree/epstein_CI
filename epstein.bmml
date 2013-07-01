@@ -167,9 +167,9 @@
         <text>If%20new%20band%7B%0Adisplay%20%3Cform%3E%0A%7D%0Aelse%20%7B%0Adisplay%20%3Cul%3E%20of%20existing%20bands%0A%7D%0A%20%0A%20%0ACreator%20is%20automatically%20the%20admin</text>
       </controlProperties>
     </control>
-    <control controlID="50" controlTypeID="com.balsamiq.mockups::StickyNote" x="885" y="453" w="230" h="164" measuredW="109" measuredH="123" zOrder="33" locked="false" isInGroup="-1">
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::StickyNote" x="885" y="453" w="230" h="273" measuredW="109" measuredH="123" zOrder="33" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Other%20ideas%3A%0ARemove%20password%20from%20session%20data%0AMake%20user%20level%20normal%20if%20they%20join%20a%20band%20-%3E%20remove%20%27add%20shows%27%20button%0AValidation%20on%20add_show%28%29%0ABand%20info%20update%20page%0AAccount%20info%20update%20page%0ADelete%20shows%0AMake%20sure%20band%20name%20isn%27t%20already%20in%20the%20DB</text>
+        <text>Other%20ideas%3A%0ARemove%20password%20from%20session%20data%0AMake%20user%20level%20normal%20if%20they%20join%20a%20band%20-%3E%20remove%20%27add%20shows%27%20button%0AValidation%20on%20add_show%28%29%0AValidation%20for%20add_song%28%29%0ABand%20info%20update%20page%0AAccount%20info%20update%20page%0ADelete%20shows%0AMake%20sure%20band%20name%20isn%27t%20already%20in%20the%20DB</text>
       </controlProperties>
     </control>
   </controls>

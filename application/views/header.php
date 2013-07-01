@@ -1,9 +1,9 @@
 <?php 
 	// echo"<pre>";
-	// var_dump(expression)p($this->session->userdata);
+	// var_dump($this->session->userdata);
 	// echo"</pre>";
 		
-	$this->output->enable_profiler(TRUE);
+	$this->output->enable_profiler(FALSE);
 ?>
 
 <!DOCTYPE HTML>

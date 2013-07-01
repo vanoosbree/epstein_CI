@@ -5,6 +5,7 @@ class Shows extends CI_Controller {
 	public function index()
 	{	
 		$band_id = $this->uri->segment(3);
+		$this->session->set_userdata("band_id", $band_id);
 		$this->load->model("Bands_model");
 		$band["band_info"] = $this->Bands_model->get_band($band_id);
 		$this->session->set_userdata("band_info", $band);
@@ -20,8 +21,8 @@ class Shows extends CI_Controller {
 		$this->load->model("Shows_model");
 
 		$band_info = $this->session->userdata("band_info");
+		$band_id = $band_info["band_info"][0]->id;		
 
-		$band_id = $band_info["band_info"][0]->id;
 		$show_info = array(
 				"band_id" => $band_id,
 				"date" => date("Y-m-d", strtotime($this->input->post("date"))),
@@ -34,11 +35,6 @@ class Shows extends CI_Controller {
 
 		$this->Shows_model->add_show($show_info);
 		redirect(base_url('/shows/index/' . $band_id));
-	}
-
-	public function update_show()
-	{
-		//database crap
 	}
 	
 }
