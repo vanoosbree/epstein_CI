@@ -32,9 +32,9 @@ class Shows_model extends CI_Model {
 
     public function create_setlist($show_info)
     {
-        $query = "INSERT INTO setlists (show_id, created_at, updated_at)
-                VALUES (?, ?, ?)";
-        $this->db->query($query, array($show_info["show_id"], $show_info["created_at"], $show_info["updated_at"]));
+        $query = "INSERT INTO setlists (band_id, show_id, created_at, updated_at)
+                VALUES (?, ?, ?, ?)";
+        $this->db->query($query, array($show_info["band_id"], $show_info["show_id"], $show_info["created_at"], $show_info["updated_at"]));
     }
     
 }

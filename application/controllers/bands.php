@@ -67,6 +67,15 @@ class Bands extends CI_Controller {
 		
 		$query = "DELETE FROM `users_has_bands` WHERE `band_id` = '{$band_id}'; ";
 		$this->db->query($query);
+
+		$query = "DELETE FROM `setlists` WHERE `band_id` = '{$band_id}'; ";
+		$this->db->query($query);
+
+		$query = "DELETE FROM `shows` WHERE `band_id` = '{$band_id}'; ";
+		$this->db->query($query);
+
+		$query = "DELETE FROM `songs` WHERE `band_id` = '{$band_id}'; ";
+		$this->db->query($query);
 		
 		$query = "DELETE FROM `bands` WHERE `id` = '{$band_id}';";
 		$this->db->query($query);
