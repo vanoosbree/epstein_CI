@@ -11,8 +11,8 @@
 </script>
 
 <div class="container">
-	
 	<h1 class="text-center"><?= $band_info[0]->band_name ?></h1>
+	<h4 class="text-center"><a href="/bands/delete_band/<?= $band_info[0]->id ?>">delete band</a></h4>
 	<h3>Add a show</h3>
 	<form action="/shows/add_show" method="post">
 		<input type="text" id="datepicker" name="date" placeholder="Date" />

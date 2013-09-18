@@ -63,8 +63,15 @@ class Bands extends CI_Controller {
 	}
 
 	public function delete_band() {
-		 $band_name = $this->uri->segment(3);
-		 echo $band_name;
+		$band_id = mysql_real_escape_string($this->uri->segment(3));
+		
+		$query = "DELETE FROM `users_has_bands` WHERE `band_id` = '{$band_id}'; ";
+		$this->db->query($query);
+		
+		$query = "DELETE FROM `bands` WHERE `id` = '{$band_id}';";
+		$this->db->query($query);
+
+		redirect('/bands');
 	}
 }
 //end of file
