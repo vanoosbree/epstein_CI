@@ -1,8 +1,4 @@
-<?php 
-	// echo"<pre>";
-	// var_dump($this->session->userdata);
-	// echo"</pre>";
-		
+<?php 		
 	$this->output->enable_profiler(FALSE);
 ?>
 

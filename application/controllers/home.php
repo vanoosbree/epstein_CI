@@ -56,8 +56,6 @@ class Home extends CI_Controller {
 	public function register()
 	{
 		
-		$this->output->enable_profiler(TRUE);
-
 		//registration validation
 		$this->form_validation->set_rules('name', 'name', 'required|isset|max_length[255]|min_length[3]');
 		$this->form_validation->set_rules('email', 'email', 'required|isset|max_length[255]|valid_email');

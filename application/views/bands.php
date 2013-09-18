@@ -5,8 +5,6 @@
 		<!-- singular or plural -->
 		<h3>Your band<?php if(gettype($names["names"]) == "array" && count($names["names"]) > 1) echo "s" ?></h3>	
 <?php
-		//this is really sloppy with the gettype (see above too)
-		// but that's just how it ended up for now. Sorry!
 		if(gettype($names["names"]) == "string")
 		{
 			echo $names["names"];

@@ -4,10 +4,10 @@ class Bands extends CI_Controller {
 
 	public function index()
 	{	
-		$band_names["names"] = $this->users_bands();
-		$band_names["all_names"] = $this->all_bands();
+		$bands["names"] = $this->users_bands();
+		$bands["all_names"] = $this->all_bands();
 
-		$this->load->view('bands', $band_names);
+		$this->load->view('bands', $bands);
 		
 	}
 
@@ -60,6 +60,11 @@ class Bands extends CI_Controller {
 
 		$this->Bands_model->create_band($band_info);
 		redirect(base_url('/bands'));
+	}
+
+	public function delete_band() {
+		 $band_name = $this->uri->segment(3);
+		 echo $band_name;
 	}
 }
 //end of file
