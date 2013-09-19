@@ -19,8 +19,7 @@
       <li <?=echo_active("bands")?>><a href="/bands">Bands</a></li>
       <!-- display 'shows' nav tab if a band is selected -->
 <?php
-      if($this->session->userdata("band_id"))
-      {
+      if($this->session->userdata("band_id")) {
         $band_id = $this->session->userdata("band_id");
         $uri = "/shows/index/" . $band_id;
 ?>

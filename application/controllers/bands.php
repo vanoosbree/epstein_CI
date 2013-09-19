@@ -80,6 +80,8 @@ class Bands extends CI_Controller {
 		$query = "DELETE FROM `bands` WHERE `id` = '{$band_id}';";
 		$this->db->query($query);
 
+		$this->session->unset_userdata('band_id');
+
 		redirect(base_url('/bands'));
 	}
 }
