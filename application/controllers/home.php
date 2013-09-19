@@ -17,12 +17,10 @@ class Home extends CI_Controller {
 		$this->form_validation->set_rules('login_email', 'Email', 'required|isset|max_length[255]|valid_email');
 		$this->form_validation->set_rules('login_password', 'Password', 'required|isset|min_length[6]|max_length[255]|alpha_numeric');
 
-	    if ($this->form_validation->run() == FALSE)
-		{
+	  if ($this->form_validation->run() == FALSE)	{
 			$this->load->view("/home");
 		}
-		else
-		{
+		else {
 			$this->load->model('Register_model');
 		    $this->load->library('encrypt');
 
@@ -33,22 +31,25 @@ class Home extends CI_Controller {
 
 		    $user = $this->Register_model->get_user($user);
 
-		    $password = $this->encrypt->decode($user->password);
-
-		    if (!($this->input->post('login_password') == $password))
-		    {
-		    	//error message, return to login	
-		    	$data['error'] = "That email and password combo does not match.";
-
+		    if (!$user) {
+		    	$data['error'] = "No user with that email address exists yet.";
 		    	$this->session->set_userdata($data);
-
 		    	$this->load->view("/home");
-		    }
-		    else
-		    {
-		    	$this->session->set_userdata("user_info", $user);
-		    	$this->session->set_userdata("logged_in", TRUE);
-		    	redirect(base_url("/bands"));
+		    } else {
+		    	$password = $this->encrypt->decode($user->password);
+
+			    if (!($this->input->post('login_password') == $password)) {
+			    	//error message, return to login	
+			    	$data['error'] = "That email and password combo does not match.";
+
+			    	$this->session->set_userdata($data);
+			    	$this->load->view("/home");
+			    }
+			    else {
+			    	$this->session->set_userdata("user_info", $user);
+			    	$this->session->set_userdata("logged_in", TRUE);
+			    	redirect(base_url("/bands"));
+			    }
 		    }
 	    }	
 	}
