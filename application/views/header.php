@@ -6,6 +6,8 @@
 <html>
 	<head>
 		<title>Epstein</title>
+		<link rel="icon" href="<?=base_url()?>/favicon.png" type="image/png">
+
 		<!-- stylesheets -->
 		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 		<link rel="stylesheet" type="text/css" href="/assets/css/bootswatch.css">
